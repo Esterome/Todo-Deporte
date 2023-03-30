@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-row-gap: 10px;
+    border-bottom: 2px solid black;
+    background-color: rgb(184, 184, 245);
+}
+ul{
+    margin-bottom: 10px;
+}
+
+    
+li{
+    list-style: none;
+    text-align: center;
+    
+}
+.logoheader{
+    width: 150px;   
+    
+}
+.titulos{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+main{
+    text-align: justify;
+    margin: 15px;
+    
+}
+.main_p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 2%;
+    padding: 5px; margin-bottom: 30px;
+
+}
+.img_productos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(8,1fr);
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_productos img{
+    width: 100px;
+    margin: 10px;
+    height: 100px;
+}
+.maps{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+}
+.section_maps{
+    width: 300px;
+    height: 400px;
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(184, 184, 245);
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+    margin-top: 30px;
+    
+}
+.iconosredes{
+    width:20px;
+    height:20px;
+    
+}
+.iconoinsta{
+    width: 40px;
+    height: 40px;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 30px;
+    border:solid 2px red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+@media (min-width: 768px) {
+    nav{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+    li{
+        
+    }
+
+}
